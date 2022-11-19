@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rico Juan Francisco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <nav>
+        <nav class="navbar fixed-top navbar-dark navbar-expand-md bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> Juan Francisco Rico</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+     
+     
+                <div class="collapse navbar-collapse" id="myNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Trabajos">Mis Trabajos</a>
+                        </li>
+     
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Contacto">Contacto</a>
+                        </li>
+                </div>
+     
+            </div>
+     
+     
+        </nav>
+    
+   
+     <div id="Inicio" class="container">
+        <div class="row justify-content-lg-between justify-content-md-between">
+     <div class="col-md-6 col-lg-3">
+       
+            <img class="img-fluid" src="imagenes/Logo.png" alt="">
+         </div>
+
+    <div class="col-md-12 col-lg-9">
+     <h2 id="Present">Sobre mi</h2>
+     <p>Soy Juan Francisco Rico, estudiante de la licenciatura en diseño en la Universidad Torcuato DiTella. <strong> Menos es más</strong>. Este podría ser perfectamente uno de los lemas de mi vida, me gusta ser sintético, no solo en mi voación como diseñador sino en mi día a día. Creo que como diseñador integral tengo la misión de poder llevar esa filosofía que tanto me gusta a mis trabajos y a cada uno de los desafíos que me toca hacer. El diseño, en mayor o menor medida, abarca gran parte de nuestras vidas. Hoy todo lo que vemos y tocamos esta prácticamente pensado e intervenido por el diseño.</p>
+    </div>
+</div>
+    </div>
+
+
+<div class="container">
+    <h3 id="Trabajos" >Mis Trabajos</h3>
+    <div  class="row justify-content-lg-between justify-content-md-between">
+        <div id="Imagenes" class="col-md-6  col-lg-4"> 
+            <a href="imagenes/IMAGEN_1.jpg" data-lightbox="image-set" data-title="Scroll Superhéroes">
+             <img class="img-fluid img-thumbnail" src="imagenes/IMAGEN_1.jpg" alt="Scroll Superhéroes"> </a>
+            </div>
+        <div id="Imagenes" class="col-md-6 col-lg-4">
+            <a href="imagenes/IMAGEN_2.jpg" data-lightbox="image-set" data-title="Camiseta Ruca del Plata"> <img class="img-fluid img-thumbnail" src="imagenes/IMAGEN_2.jpg" alt="Camiseta Ruca del Plata"> </a> 
+        </div>
+        <div id="Imagenes" class="col-md-6 col-lg-4">
+            <a href="imagenes/IMAGEN_3.jpg" data-lightbox="image-set" data-title="Tramas e Iconicidad"> <img class="img-fluid img-thumbnail" src="imagenes/IMAGEN_3.jpg" alt="Tramas e Iconicidad"> </a>
+        </div>
+        <div id="Imagenes" class="col-md-6  col-lg-4">
+            <a href="imagenes/IMAGEN_4.jpg" data-lightbox="image-set" data-title="Fanzine Childish Gambino"><img class="img-fluid img-thumbnail" src="imagenes/IMAGEN_4.jpg" alt="Fanzine Childish Gambino"> </a>
+            </div>
+        <div id="Imagenes" class="col-md-6 col-lg-4">
+            <a href="imagenes/IMAGEN_5.jpg" data-lightbox="image-set" data-title="Ritmos Tipográficos"> <img class="img-fluid img-thumbnail" src="imagenes/IMAGEN_5.jpg" alt="Ritmos Tipográficos"></a>
+        </div>
+        <div id="Imagenes" class="col-md-6 col-lg-4">
+            <a href="imagenes/IMAGEN_6.jpg" data-lightbox="image-set" data-title="Cross Stool"><img class="img-fluid img-thumbnail" src="imagenes/IMAGEN_6.jpg" alt="Cross Stool"></a>
+            </div> 
+    </div>
+</div>
+
+<div class="container">
+    <video muted loop autoplay class="img-fluid" id="video" src="imagenes/VIDEO.mp4"></video>
+    </div>
+
+<div  class="container form">
+    <h3 id="Contacto">Contacto</h3>
+    <form action="php/code.php"  method="post">
+        <label class="col-12">Nombre <input name="name" placeholder="Juan Perez" type="text" required></label>
+
+        <label class="col-12">Email<input name="email" type="email" required placeholder="mail@mimail.com"></label>
+
+        <label class="col-12">Edad<input name="age" type="number" min="18" max="100"></label>
+
+        <label class="col-12">Comentarios
+            <textarea name="comments" required></textarea>
+            <button class="col-12">Send</button>
+
+        </form>
+    </div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

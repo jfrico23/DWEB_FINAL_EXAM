@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Poppins:wght@200;300;500;700&display=swap');
+
+.row div {
+margin-top: 20px;}
+
+
+body {background-color: #1E1E1E;
+    color: #F7DCD2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+h2,h3 { 
+    font-family: 'Kufam', sans-serif;
+
+}
+
+#Present {margin-top: 180px;
+color: #F7DCD2;
+transition-property: color;
+transition-duration: 1s;
+}
+
+#Present:hover {
+    color: #FF5500;
+
+
+}
+
+p {
+    animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#Trabajos {
+    margin-top: 20px;
+    color: #F7DCD2;
+    transition-property: color;
+    transition-duration: 1s;
+}
+#Trabajos:hover {
+    color: #FF5500;
+
+
+}
+
+#Contacto {
+    margin-top: 20px;
+    color: #F7DCD2;
+    transition-property: color;
+    transition-duration: 1s;
+}
+#Contacto:hover {
+    color: #FF5500;
+
+
+}
+
+#Inicio {
+    margin-top: 30px;
+}
+  
+#Imagenes{
+    transition-property:color;
+    transition-timing-function: ease-in;
+}
+#Imagenes:hover {
+    
+    filter:contrast(80%);
+    
+    }
+
+    
+form{
+    width: 100%;
+}
+input, textarea {
+
+    width: 100%;
+    height: 40px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #1E1E1E;
+    color: #F7DCD2;
+    border-radius: 5px;
+}
+
+button {
+    color: #1E1E1E;
+    background-color: #FF5500;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+@keyframes move {
+form {color: #F7DCD2;}
+to {color: #f7dcd2b4;}
+}
+
+@media (max-width:992px) {
+    #Present {margin-top: 0px;}
+    h3 {margin-top:20px}
+    
+}
